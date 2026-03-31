@@ -1,0 +1,302 @@
+{
+  "type":"EditedTable",
+  "created":"Tue, 31 Mar 2026 06:22:21 GMT",
+  "serialization_version":"1",
+  "transaction_id":"d311fa902f26ee9076739d11dbc724c60a9cf6940eac074a0b08a4b6829e6591",
+  "row_cache_populated":false,
+  "override_table_rows_schema":null,
+  "row_count":3733,
+  "input_table_url":"../final_kaggle",
+  "edits":{
+    "weight":{
+      "runs_and_values":[
+        [
+          33,
+          90,
+          155,
+          180,
+          281,
+          296,
+          314,
+          347,
+          383,
+          520,
+          620,
+          721,
+          801,
+          868,
+          1112,
+          1197,
+          1274,
+          1304,
+          1328,
+          1435,
+          1437,
+          1576,
+          1616,
+          1644,
+          1674,
+          1744,
+          1785,
+          -1786,
+          1838,
+          1867,
+          2048,
+          2078,
+          2123,
+          2126,
+          2133,
+          2252,
+          2340,
+          2377,
+          2574,
+          2591,
+          2597,
+          2652,
+          2677,
+          2730,
+          2768,
+          2780,
+          -2781,
+          2785,
+          2803,
+          2810,
+          2856,
+          2901,
+          2926,
+          2983,
+          2996,
+          3026,
+          3054,
+          3119,
+          3149,
+          3248,
+          3260,
+          3356,
+          3417,
+          3475,
+          3565,
+          3612,
+          3659,
+          3671
+        ],
+        1.3
+      ]
+    }
+  },
+  "schema":{
+    "display_name":"Schema",
+    "description":"The Schema describing the layout of the 3LC object",
+    "values":{
+      "type":{
+        "display_name":"Type",
+        "description":"The type name of the class",
+        "writable":false,
+        "value":{
+          "type":"string",
+          "string_role":"ObjectType"
+        }
+      },
+      "schema":{
+        "display_name":"Schema",
+        "description":"The Schema object format",
+        "value":{
+          "type":"dict"
+        }
+      },
+      "created":{
+        "display_name":"Created",
+        "description":"The datetime of the object creation",
+        "value":{
+          "type":"string",
+          "string_role":"Datetime"
+        }
+      },
+      "serialization_version":{
+        "display_name":"Version",
+        "description":"The serialization version of the object",
+        "value":{
+          "type":"string",
+          "string_role":"Version"
+        }
+      },
+      "transaction_id":{
+        "display_name":"Transaction ID",
+        "description":"The transaction associated with this object",
+        "writable":false,
+        "default_visible":false,
+        "value":{
+          "type":"string"
+        }
+      },
+      "is_url_writable":{
+        "display_name":"Is URL writable",
+        "description":"Whether the URL where the object is stored is writable.",
+        "writable":false,
+        "display_importance":-1,
+        "transient":true,
+        "default_visible":false,
+        "value":{
+          "type":"bool"
+        }
+      },
+      "row_cache_url":{
+        "display_name":"Row cache URL",
+        "description":"An optional URL referring to a cached version of all rows within this table",
+        "writable":false,
+        "value":{
+          "type":"string",
+          "string_role":"URL"
+        }
+      },
+      "row_cache_populated":{
+        "display_name":"Row cache populated",
+        "description":"Whether 'row_cache_url' refers to a cached version of all rows within this table",
+        "writable":false,
+        "value":{
+          "type":"bool"
+        }
+      },
+      "dataset_name":{
+        "display_name":"Dataset name",
+        "description":"The name of the dataset that this table belongs to",
+        "writable":false,
+        "display_importance":399,
+        "transient":true,
+        "value":{
+          "type":"string"
+        }
+      },
+      "project_name":{
+        "display_name":"Project name",
+        "description":"The name of the project that this table belongs to",
+        "writable":false,
+        "display_importance":400,
+        "transient":true,
+        "value":{
+          "type":"string"
+        }
+      },
+      "override_table_rows_schema":{
+        "display_name":"Override Schema",
+        "description":"A schema describing potentially sparse overrides for the base schema",
+        "value":{
+          "type":"dict"
+        }
+      },
+      "row_count":{
+        "display_name":"Row count",
+        "description":"The number of rows within this table (if known).",
+        "writable":false,
+        "value":{
+          "type":"int32",
+          "min":-1,
+          "max":1000000000,
+          "enforce_min":true,
+          "map":{
+            "-1.0":{
+              "internal_name":"Unknown",
+              "display_name":"(Unknown)",
+              "description":"The table hasn't produced its rows yet, and so the row count is still unknown",
+              "display_color":"#c06060"
+            }
+          }
+        }
+      },
+      "description":{
+        "display_name":"Description",
+        "display_importance":-1,
+        "value":{
+          "type":"string"
+        }
+      },
+      "input_tables":{
+        "display_name":"Input Tables",
+        "description":"Which input tables have been used to produce the table.",
+        "writable":false,
+        "size0":{
+          "type":"int32",
+          "min":0,
+          "max":1000,
+          "enforce_min":true
+        },
+        "value":{
+          "type":"string",
+          "string_role":"URL/Table"
+        }
+      },
+      "input_table_url":{
+        "value":{
+          "type":"string",
+          "string_role":"URL/Table"
+        }
+      },
+      "edits":{
+        "display_name":"Edit schema",
+        "description":"Schema for the 'edits' property",
+        "value":{
+          "type":"dict"
+        }
+      },
+      "rows":{
+        "display_name":"Table rows",
+        "description":"A property containing the table rows within this Parquet table",
+        "writable":false,
+        "size0":{
+          "type":"int32",
+          "min":0,
+          "max":1000000000,
+          "enforce_min":true,
+          "number_role":"table_row_index",
+          "display_name":"Table row"
+        },
+        "values":{
+          "id":{
+            "writable":false,
+            "value":{
+              "type":"int32"
+            }
+          },
+          "image":{
+            "sample_type":"image_path",
+            "value":{
+              "type":"string",
+              "string_role":"URL/Image"
+            }
+          },
+          "label":{
+            "sample_type":"categorical_label",
+            "value":{
+              "type":"int32",
+              "min":0,
+              "max":2,
+              "number_role":"label",
+              "map":{
+                "0.0":{
+                  "internal_name":"chihuahua"
+                },
+                "1.0":{
+                  "internal_name":"muffin"
+                },
+                "2.0":{
+                  "internal_name":"undefined"
+                }
+              }
+            }
+          },
+          "weight":{
+            "display_name":"Weight",
+            "description":"The weights of the samples in this table.",
+            "sample_type":"hidden",
+            "value":{
+              "default_value":1.0,
+              "min":0,
+              "enforce_min":true,
+              "number_role":"sample_weight"
+            }
+          }
+        }
+      }
+    }
+  }
+}
