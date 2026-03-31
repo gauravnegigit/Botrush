@@ -187,7 +187,7 @@ def train():
     # ).latest()
 
     # OPTION 2: Load by URL (uncomment and set URLs to use a specific revision)
-    TRAIN_TABLE_URL = "C:/Users/Gaurav Negi/AppData/Local/3LC/3LC/projects/Chihuahua-Muffin/datasets/chihuahua-muffin/tables/final_kaggle_2"
+    TRAIN_TABLE_URL = "C:/Users/Gaurav Negi/AppData/Local/3LC/3LC/projects/Chihuahua-Muffin/datasets/chihuahua-muffin/tables/final_kaggle"
     VAL_TABLE_URL = "C:/Users/Gaurav Negi/AppData/Local/3LC/3LC/projects/Chihuahua-Muffin/datasets/chihuahua-muffin/tables/val"
     train_table = tlc.Table.from_url(TRAIN_TABLE_URL)
     val_table = tlc.Table.from_url(VAL_TABLE_URL)
