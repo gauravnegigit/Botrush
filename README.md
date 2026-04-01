@@ -113,20 +113,6 @@ So: each training run replaces `best_model.pth`; each prediction run replaces `s
 
 ---
 
-## Files in this kit
-
-| File | Purpose |
-|------|--------|
-| `config.yaml` | Competition and training config |
-| `register_tables.py` | Register train/val in 3LC (run once) |
-| `train.py` | Training with 3LC; saves `best_model.pth` |
-| `predict.py` | Inference on test; writes `submission.csv` |
-| `sample_submission.csv` | Required submission format and image_ids |
-| `data/` | Pre-split train, val, and test images |
-| `README.md` | This file |
-
----
-
 ## Submission format
 
 `submission.csv` must have:
@@ -155,8 +141,6 @@ So: each training run replaces `best_model.pth`; each prediction run replaces `s
 
 ---
 
-## Resources
+## Metrics
 
-- [3LC Documentation](https://docs.3lc.ai)
-
-Good luck, and may the best data win.
+![Accuracy](./Screenshots/Accuracy.png)
