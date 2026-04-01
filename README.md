@@ -159,11 +159,8 @@ So: each training run replaces `best_model.pth`; each prediction run replaces `s
 ![My Image](./Screenshots/All_metrics.png)
 
 ## Tables 
-![My Image](./Screenshots/Tables.png)
+![My Image](./Screenshots/Tables.png)      ![My Image](./Screenshots/dataset.png)
 
 ## Embeddings
-![My Image](./Screenshots/Embeddings.png)    ![My Image](./Screenshots/Dataset_with_all_metrics.png)  
-
-## Dataset 
-![My Image](./Screenshots/dataset.png)  
+![My Image](./Screenshots/Embeddings.png)    ![My Image](./Screenshots/Dataset_with_all_metrics.png)    
 
