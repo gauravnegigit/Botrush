@@ -147,10 +147,23 @@ So: each training run replaces `best_model.pth`; each prediction run replaces `s
 ![Accuracy](./Screenshots/Accuracy.png)
 
 #### Train confidence
-![My Image](./assets/TrainConfidence.png)
+![My Image](./Screenshots/Train_Confidence.png)
 
 #### Train Accuracy
-![My Image](./assets/TrainAccuracy.png)
+![My Image](./Screenshots/Train_accuracy.png)
 
 #### Train Loss
-![My Image](./assets/TrainLoss.png)
+![My Image](./Screenshots/Train_loss.png)
+
+#### All metrics 
+![My Image](./Screenshots/All_metrics.png)
+
+## Tables 
+![My Image](./Screenshots/Train_loss.png)
+
+## Embeddings
+![My Image](./Screenshots/Embeddings.png)    ![My Image](./Screenshots/Dataset_with_all_metrics.png)  
+
+## Dataset 
+![My Image](./Screenshots/dataset.png)  
+
